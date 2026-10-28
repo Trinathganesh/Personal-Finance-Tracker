@@ -1,0 +1,197 @@
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+
+}
+
+
+
+body{
+
+background:#f4f7fb;
+
+}
+
+
+
+/* Navbar */
+
+
+nav{
+
+height:80px;
+background:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 70px;
+box-shadow:0 3px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+.logo{
+
+font-size:24px;
+font-weight:bold;
+color:#2c3e50;
+
+}
+
+
+
+.buttons a{
+
+text-decoration:none;
+margin-left:20px;
+padding:10px 25px;
+border-radius:25px;
+color:#3498db;
+border:2px solid #3498db;
+
+}
+
+
+
+.buttons a:hover{
+
+background:#3498db;
+color:white;
+
+}
+
+
+
+
+
+/* Hero */
+
+
+.hero{
+
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:80px;
+
+}
+
+
+
+.content{
+
+width:50%;
+
+}
+
+
+
+.content h1{
+
+font-size:45px;
+color:#2c3e50;
+margin-bottom:20px;
+
+}
+
+
+
+.content p{
+
+font-size:18px;
+color:#666;
+line-height:1.6;
+margin-bottom:30px;
+
+}
+
+
+
+
+.hero-buttons a{
+
+text-decoration:none;
+padding:14px 30px;
+background:#3498db;
+color:white;
+border-radius:30px;
+margin-right:15px;
+
+}
+
+
+
+.hero-buttons a:hover{
+
+background:#2980b9;
+
+}
+
+
+
+
+.image .box{
+
+width:250px;
+height:250px;
+background:white;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:100px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+
+
+/* Features */
+
+
+.features{
+
+display:flex;
+justify-content:center;
+gap:25px;
+padding:30px;
+
+}
+
+
+
+.feature{
+
+background:white;
+width:250px;
+padding:25px;
+text-align:center;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+.feature h3{
+
+color:#3498db;
+margin-bottom:10px;
+
+}
+
+
+
+.feature p{
+
+color:#666;
+
+}

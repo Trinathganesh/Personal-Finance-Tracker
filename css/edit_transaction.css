@@ -1,0 +1,69 @@
+/* Edit Transaction Page */
+
+body{
+    background:#f4f7fb;
+    font-family:Arial, sans-serif;
+}
+
+
+.edit-box{
+
+    width:400px;
+    margin:50px auto;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.edit-box h2{
+
+    text-align:center;
+    color:#333;
+    margin-bottom:20px;
+
+}
+
+
+.edit-box label{
+
+    display:block;
+    margin-bottom:6px;
+    font-weight:bold;
+
+}
+
+
+.edit-box input,
+.edit-box select{
+
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+
+}
+
+
+.edit-box button{
+
+    width:100%;
+    padding:12px;
+    background:#3498db;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+
+}
+
+
+.edit-box button:hover{
+
+    background:#2980b9;
+
+}

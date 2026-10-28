@@ -1,0 +1,251 @@
+/* ===============================
+   LOGIN PAGE
+=================================*/
+
+body{
+    background:linear-gradient(135deg,#eef2ff,#f8fafc);
+    height:100vh;
+}
+
+.auth-container{
+
+    display:flex;
+    height:100vh;
+
+}
+
+/* Left Side */
+
+.left-panel{
+
+    width:55%;
+    background:linear-gradient(135deg,#1e3a8a,#2563eb,#3b82f6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    padding:70px;
+    position:relative;
+    overflow:hidden;
+
+}
+
+.left-panel::before{
+
+content:"";
+
+position:absolute;
+
+width:500px;
+height:500px;
+
+background:rgba(255,255,255,.08);
+
+border-radius:50%;
+
+top:-150px;
+left:-150px;
+
+}
+
+.left-panel::after{
+
+content:"";
+
+position:absolute;
+
+width:350px;
+height:350px;
+
+background:rgba(255,255,255,.08);
+
+border-radius:50%;
+
+bottom:-120px;
+right:-120px;
+
+}
+
+.left-content{
+
+position:relative;
+z-index:2;
+
+}
+
+.left-content h1{
+
+font-size:52px;
+font-weight:700;
+margin-bottom:20px;
+
+}
+
+.left-content p{
+
+font-size:19px;
+line-height:1.9;
+opacity:.95;
+
+}
+
+/* Right Side */
+
+.right-panel{
+
+width:45%;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+padding:50px;
+
+}
+
+.form-box{
+
+width:430px;
+
+background:#fff;
+
+padding:45px;
+
+border-radius:24px;
+
+box-shadow:
+0 25px 60px rgba(0,0,0,.08);
+
+}
+
+.form-box h2{
+
+font-size:34px;
+
+margin-bottom:8px;
+
+color:#111827;
+
+}
+
+.subtitle{
+
+color:#6b7280;
+
+margin-bottom:35px;
+
+}
+
+.input-group{
+
+margin-bottom:22px;
+
+}
+
+.input-group label{
+
+display:block;
+
+margin-bottom:8px;
+
+font-weight:600;
+
+}
+
+.input-group input{
+
+background:#f9fafb;
+
+transition:.3s;
+
+}
+
+.input-group input:focus{
+
+background:white;
+
+box-shadow:0 0 0 5px rgba(37,99,235,.12);
+
+}
+
+.btn{
+
+width:100%;
+
+margin-top:10px;
+
+font-size:16px;
+
+padding:15px;
+
+}
+
+.form-footer{
+
+margin-top:30px;
+
+text-align:center;
+
+font-size:15px;
+
+}
+
+.form-footer a{
+
+color:#2563eb;
+
+font-weight:700;
+
+}
+
+.form-footer a:hover{
+
+text-decoration:underline;
+
+}
+
+/* Mobile */
+
+@media(max-width:900px){
+
+.auth-container{
+
+flex-direction:column;
+
+}
+
+.left-panel{
+
+width:100%;
+height:250px;
+
+padding:30px;
+
+}
+
+.left-content h1{
+
+font-size:36px;
+
+}
+
+.left-content p{
+
+font-size:16px;
+
+}
+
+.right-panel{
+
+width:100%;
+padding:25px;
+
+}
+
+.form-box{
+
+width:100%;
+
+}
+
+}
